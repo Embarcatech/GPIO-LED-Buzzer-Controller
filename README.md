@@ -102,6 +102,6 @@ O sistema responde aos seguintes comandos enviados via terminal serial:
 
 2. **Verifique em qual porta o Pico está configurado. Ex: COM3.**
 
-3. **Abra um terminal serial e configure a taxa de envio (speed) em `115200`**
+3. **Abra um terminal serial, configure a taxa de envio (speed) em `115200` e selecione a porta correspondente ao Pico**
 
 4. **Envie os comandos listados na seção [Comandos Disponíveis](#comandos-disponíveis)**
