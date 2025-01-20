@@ -12,14 +12,16 @@ Atividade 2 (Participativa): Controle de pinos GPIO da ferramenta educacional Bi
 
 1. ** Controle dos LEDs/(GPIOs 11, 12 e 13)** - [Alinne- LED 11]
 2. ** Controle do Buzzer/(GPIO 21)** - Gabriel S. Lacerda
-3. ** Comunicação via UART ** - _[A definir]_
-4. ** Integração do Sistema ** - _[A definir]_
-5. ** Testes e Debugging ** - _[A definir]_
+3. ** Comunicação via UART ** - Jackson
+4. ** Integração do Sistema ** - Hugo
+5. ** Testes e Debugging ** - _[Hugo
 6. **Documentação inicial do `README.md`, instruções e detalhes básicos** - Jackson
 
 ## **Descrição do projeto**
 
 Este projeto consiste no controle de pinos GPIO do microcontrolador RP2040 utilizando a placa de desenvolvimento **BitDogLab**. O objetivo é realizar o acionamento dos LEDs e de um buzzer, com comunicação serial via UART. O desenvolvimento foi realizado em C utilizando o **Pico SDK** e o ambiente de desenvolvimento **VS Code**.
+
+[Video de apresentação do projeto - tarefa 2](https://drive.google.com/file/d/1Ro4sSgDJhqtfspcYIwUsvDHQyVi4NhIw/view?usp=sharing "Video de apresentação do projeto - tarefa 2")
 
 ## **Funcionalidades**
 
