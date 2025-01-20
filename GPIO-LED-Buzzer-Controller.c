@@ -3,6 +3,21 @@
 #include "pico/stdlib.h"
 #include "pico/bootrom.h"
 
+#define GPIO_BUZZER 21 
+
+void init_gpio(){
+
+    gpio_init(GPIO_BUZZER);
+    gpio_set_dir(GPIO_BUZZER, 1);
+    gpio_put(GPIO_BUZZER, 0);
+
+}
+
+void buzzer(){
+    gpio_put(GPIO_BUZZER, 1);
+    sleep_ms(2000);
+    gpio_put(GPIO_BUZZER, 0);
+}
 
 #define GPIO_LED_VERDE 11
 
@@ -57,7 +72,6 @@ int main()
         } else if(strcmp(funcao, "BUZZER")==0)
         {
             printf("Ligando o BUZZER\n");
-            
 
         } else if(strcmp(funcao, "SAIR")==0)
         {
