@@ -10,11 +10,11 @@ Atividade 2 (Participativa): Controle de pinos GPIO da ferramenta educacional Bi
 
 ## **Colaboradores e Divisão das Tarefas**
 
-1. ** Controle dos LEDs/(GPIOs 11, 12 e 13)** - [Alinne- LED 11]
+1. ** Controle dos LEDs/(GPIOs 11, 12 e 13)** - Alinne - LED 11 / Sergio  LED 12,13
 2. ** Controle do Buzzer/(GPIO 21)** - Gabriel S. Lacerda
 3. ** Comunicação via UART ** - Jackson
-4. ** Integração do Sistema ** - Hugo
-5. ** Testes e Debugging ** - _[Hugo
+4. ** Integração do Sistema ** - Hugo S. Dias
+5. ** Testes e Debugging ** - _ Hugo S. Dias / Alinne / Sergio
 6. **Documentação inicial do `README.md`, instruções e detalhes básicos** - Jackson
 
 ## **Descrição do projeto**
